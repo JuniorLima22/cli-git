@@ -13,5 +13,17 @@ $ git add *
 Removendo do stage aerea
 $ git rm --cached -f <file>
 
-Enviar ou recebe repositorio para um servidor
+Adiciona repositorio de um servidor remoto (Github)
 $ git remote add origin urlDoSeuRepositorioDoGitHub
+
+Verifica remote
+$ git remote
+$ git remote -v
+$ git remote --l
+$ git remote origin
+
+Enviar para servidor remoto (Github)
+$ git push
+
+Pegar informação da origigem remota (Github)
+$ git pull
