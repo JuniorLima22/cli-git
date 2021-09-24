@@ -208,7 +208,7 @@ $ git diff
 $ git diff --name-only
 ```
 
-# Disfazendo coisas
+# Desfazendo coisas
 
 ### Retorna o arquivo para antes da edição anterior
 
