@@ -34,7 +34,7 @@
 - [ ] GIF's
 
 <h1 align="center">
-    <img alt="Readme" title="Readme GIF" src="./github/Readme-gif.gif" />
+    <img alt="SeuBannerAqui" title="Readme GIF" src="./github/Readme-gif.gif" />
 </h1>
 
 ### Pre-requisitos 🎲
