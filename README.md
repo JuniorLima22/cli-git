@@ -127,7 +127,7 @@ $ git commit -am "seuComentarioAqui"
 ### Removendo do stage aerea
 
 ```php
-$ git rm --cached -f <file> ou <folder1/>
+$ git rm --cached -f <file> ou <folder1>
 ```
 
 # Repositorio Remoto
@@ -181,7 +181,7 @@ $ git log
 $ git log --decorate
 
 //Filtra pelo nome do autor do commit
-$ git log --author"nomeDoAutor"
+$ git log --author "nomeDoAutor"
 
 //Resumo dos commits
 $ git shortlog 
@@ -208,7 +208,7 @@ $ git diff
 $ git diff --name-only
 ```
 
-# Disfazando coisas
+# Disfazendo coisas
 
 ### Retorna o arquivo para antes da edição anterior
 
