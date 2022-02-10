@@ -231,6 +231,29 @@ git reset --hard numeroDaHashAqui
 git restore <file>
 ```
 
+# Prefixos do commit
+
+- **feat:** O nome já diz também o que é, uma nova feature que será adicionada ao projeto, componente e afins.
+
+- **bugfix:** Como o próprio nome já diz, é um BUG e precisa ser corrigido de forma imediata, o quanto antes.
+
+- **hotfix:** Às vezes esse termo pode ser usado de outras formas, até mesmo para usar no lugar do bugfix. Porém, eu prefiro separar, deixar com semânticas diferentes.
+Ele é bem similar ao bugfix/, porém, ele não é um BUG, mas sim uma correção, seja ela de cor, textos, alterações não tão urgentes, que não signifiquem BUG's.
+
+- **docs:** mais um fácil, para algo relacionado a documentações, README e afins
+
+- **style:** mexeu no estilo, CSS? Manda brasa então nesse cara
+
+- **refactor:** precisou alterar, melhoria no código.
+
+- **perf:** quando você mexer em algo relacionado a performance, fique à vontade em usar esse aqui.
+
+- **improvement:** O nome já mostra para o que serve. Em si é uma melhoria para um feature já existente, seja de performance, de escrita, de layout, etc.
+
+- **test:** para testes, ok?
+
+- **chore:** geralmente o mais emblemático. Serve para coisas relacionados a build, configs e afins. Por exemplo, mexeu em algo no package.json? Use esse cara, seja atualizando a versão do pacote ou instalando novas dependências
+
 # Referências
 
 - Pesquisa
@@ -238,6 +261,8 @@ git restore <file>
     - [Git How To](https://githowto.com/pt-BR) é um tour guiado que passa pelos fundamentos de Git, inspirado pela premissa que saber sobre algo é fazê-lo.
 
     - [Padrões e nomenclaturas no Git](https://www.brunodulcetti.com/padroes-e-nomenclaturas-no-git/) Como você cria suas branches? E seus commits? Possui padrões? [Bruno Dulcetti](https://github.com/dulcetti) 👏🏻👏🏻
+
+    - [Commitizen](https://github.com/commitizen/cz-cli) Ao confirmar com o Commitizen, você será solicitado a preencher todos os campos de confirmação obrigatórios no momento do commit.
 
     - [Nomenclatura para repositórios](https://qastack.com.br/programming/11947587/is-there-a-naming-convention-for-git-repositories) Existe uma convenção de nomenclatura para repositórios git?
 
