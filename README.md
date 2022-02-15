@@ -1,4 +1,10 @@
-# Ciclo de vida dos status dos arquivos
+<p align="center" id="top">
+    <img alt="Readme" title="Readme GIF" src="banner.jpg" />
+</p>
+
+<h1 align="center">GIT e GITHUB</h1>
+
+## Ciclo de vida dos status dos arquivos
 
 **untracked** - Quando o arquivo acabou de ser adicionado ao repositorio (o Git não conhece dentro do versionamento de arquivos)
 
@@ -8,15 +14,15 @@
 
 **staged** - Adicionado a uma area onde será adicionado a versão (após o commit retorna ao status unmodified)
 
-# Configurações iniciais do Git
+## Configurações iniciais do Git
 
-### Configurando usuario
+### Configurando usuário
 
 ```php
 git config --global user.name "Seu nome"
 ```
 
-### Configurando email
+### Configurando e-mail
 
 ```php
 git config --global user.email "seu@email"
@@ -53,9 +59,9 @@ git config init.defaultbranch
 git init
 ```
 
-# Branch
+## Branch
 
-### Crando uma branch e selecionando
+### Criando uma branch e selecionando
 
 ```php
 git checkout -b <nomeDaBranch>
@@ -79,7 +85,8 @@ git branch -a
 git checkout <nomeDaBranch>
 ```
 
-### Mudar a branch master para main no GitHub.
+### Mudar a branch <code>master</code> para <code>main</code> no GitHub.
+
 ### Alterar/Renomear repositório local de master para main
 
 ```php
@@ -130,7 +137,7 @@ git commit -am "seuComentarioAqui"
 git rm --cached -f <file> ou <folder1/>
 ```
 
-# Repositorio Remoto
+## Repositório Remoto
 
 ### Adiciona repositorio de um servidor remoto (Github)
 
@@ -172,30 +179,48 @@ git push --set-upstream -f origin main
 git pull
 ```
 
-# Logs
+## Logs
 
 ### Visualizando logs
 
 ```php
 git log
 git log --decorate
+```
 
-//Filtra pelo nome do autor do commit
+### Filtra pelo nome do autor do commit
+
+```php
 git log --author"nomeDoAutor"
+```
 
-//Resumo dos commits
+### Resumo dos commits
+
+```php
 git shortlog 
+```
 
-//Resumo com nome do autor e quantidade de commits
+### Resumo com nome do autor e quantidade de commits
+
+```php
 git shortlog -sn 
+```
 
-//Lista de forma gráfica os branch e versoes
+### Lista de forma gráfica os branch e versoes
+
+```php
 git log --graph 
+```
 
-//Exibindo log pelo hash
+### Exibindo log pelo hash
+
+```php
 git show numeroDaHashAqui 
+```
 
-//Histórico em uma linha
+### Histórico em uma linha
+
+```php
 git log --pretty=oneline
 ```
 
@@ -203,12 +228,15 @@ git log --pretty=oneline
 
 ```php
 git diff
+```
 
-//Lista apenas os nomes dos arquivos modificados
+### Lista apenas os nomes dos arquivos modificados
+
+```php
 git diff --name-only
 ```
 
-# Disfazando coisas
+## Desfazendo coisas
 
 ### Retorna o arquivo para antes da edição anterior
 
@@ -231,7 +259,7 @@ git reset --hard numeroDaHashAqui
 git restore <file>
 ```
 
-# Prefixos do commit
+## Prefixos de commit
 
 - **feat:** O nome já diz também o que é, uma nova feature que será adicionada ao projeto, componente e afins.
 
@@ -254,18 +282,27 @@ Ele é bem similar ao bugfix/, porém, ele não é um BUG, mas sim uma correçã
 
 - **chore:** geralmente o mais emblemático. Serve para coisas relacionados a build, configs e afins. Por exemplo, mexeu em algo no package.json? Use esse cara, seja atualizando a versão do pacote ou instalando novas dependências
 
-# Referências
+## Referências
 
 - Pesquisa
 
-    - [Git How To](https://githowto.com/pt-BR) é um tour guiado que passa pelos fundamentos de Git, inspirado pela premissa que saber sobre algo é fazê-lo.
+  - [Git How To](https://githowto.com/pt-BR) é um tour guiado que passa pelos fundamentos de Git, inspirado pela premissa que saber sobre algo é fazê-lo.
 
-    - [Padrões e nomenclaturas no Git](https://www.brunodulcetti.com/padroes-e-nomenclaturas-no-git/) Como você cria suas branches? E seus commits? Possui padrões? [Bruno Dulcetti](https://github.com/dulcetti) 👏🏻👏🏻
+  - [Padrões e nomenclaturas no Git](https://www.brunodulcetti.com/padroes-e-nomenclaturas-no-git/) Como você cria suas branches? E seus commits? Possui padrões? [Bruno Dulcetti](https://github.com/dulcetti) 👏🏻👏🏻
 
     - [Commitizen](https://github.com/commitizen/cz-cli) Ao confirmar com o Commitizen, você será solicitado a preencher todos os campos de confirmação obrigatórios no momento do commit.
 
     - [Nomenclatura para repositórios](https://qastack.com.br/programming/11947587/is-there-a-naming-convention-for-git-repositories) Existe uma convenção de nomenclatura para repositórios git?
 
+### Wakatime
+Tempo gasto no IDE para este repositório, rastreado automaticamente com [wakatime](https://wakatime.com/) .
+
+[![wakatime](https://wakatime.com/badge/github/JuniorLima22/cli-git.svg)](https://wakatime.com/badge/github/JuniorLima22/cli-git)
+
 ### Autor
 
 > Made with 💙 by JUNIOR LIMA 👋 [See my LinkedIn](https://www.linkedin.com/in/junior-lima-495108208/) • GitHub [@JuniorLima22](https://github.com/JuniorLima22)
+
+<p align="center">
+<sub><a href="#top" align="center">↑ voltar para o topo ↑</a></sub>
+</p>
