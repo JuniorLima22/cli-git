@@ -85,6 +85,14 @@ git branch -a
 git checkout <nomeDaBranch>
 ```
 
+### Fundindo branches
+
+> Obs: Selecionar branch de destino exemplo <code>main</code> e efetuar o merge com o branch desejado.
+
+```php
+git merge <nomeDaBranch>
+```
+
 ### Mudar a branch <code>master</code> para <code>main</code> no GitHub.
 
 ### Alterar/Renomear repositório local de master para main
@@ -306,5 +314,3 @@ Tempo gasto no IDE para este repositório, rastreado automaticamente com [wakati
 <p align="center">
 <sub><a href="#top" align="center">↑ voltar para o topo ↑</a></sub>
 </p>
-
-Teste da nova Branch
