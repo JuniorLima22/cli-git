@@ -150,8 +150,6 @@ git remote add origin <urlDoSeuRepositorioDoGitHub>
 ```php
 git remote
 git remote -v
-git remote --l
-git remote origin
 git remote show origin
 ```
 
